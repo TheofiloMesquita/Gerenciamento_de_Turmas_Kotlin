@@ -1,37 +1,46 @@
-📚 Sistema de Gestão Escolar
-🏫 Sobre o Projeto
+# 📱 App Android — Gestão Escolar (Kotlin)
 
-Com o objetivo de oferecer uma solução moderna e integrada para a administração de uma rede de escolas, este aplicativo foi desenvolvido para centralizar e simplificar todos os processos relacionados à gestão acadêmica e operacional.
+Aplicativo Android desenvolvido em Kotlin com foco em gerenciamento acadêmico, permitindo criar, visualizar, atualizar e excluir dados de escolas, professores, alunos e salas.
 
-A plataforma possibilita o gerenciamento completo de alunos, escolas, professores e salas, reunindo em um único sistema todas as informações essenciais para o funcionamento eficiente das instituições.
+---
 
-🎯 Principais Funcionalidades
+## 💡 Funcionalidades
 
-👨‍🎓 Gestão de Alunos
-Cadastro, acompanhamento, matrículas e histórico educacional.
+- 📚 Cadastro e listagem de escolas  
+- 👨‍🏫 CRUD de professores  
+- 👩‍🎓 CRUD de alunos  
+- 🏫 Gerenciamento de salas  
+- Interface simples e intuitiva  
+- Banco de dados local com persistência offline  
 
-🏫 Gestão de Escolas
-Configuração de unidades, calendários, horários e dados institucionais.
+---
 
-👨‍🏫 Gestão de Professores
-Perfis, alocação em turmas, distribuição de aulas e organização pedagógica.
+## 🛠️ Tecnologias
 
-🧩 Gestão de Salas
-Controle de disponibilidade, capacidade, reservas e distribuição de turmas.
+- **Kotlin**  
+- Android SDK  
+- SQLite (banco local)  
+- Android Studio  
 
-🚀 Objetivo
+---
 
-Proporcionar uma experiência completa de administração escolar, oferecendo ferramentas que trazem:
+## 🧱 Estrutura do Projeto
 
-Agilidade nos processos
+O app mantém um padrão organizado de repositório para gerenciar dados, com lógica de persistência local e interfaces para as principais entidades do sistema.
 
-Redução de erros manuais
+---
 
-Integração entre setores
+## 📲 Executando o App
 
-Tomada de decisão mais precisa
+1. Abra o projeto no **Android Studio**.  
+2. Compile e rode em um dispositivo ou emulador Android.  
+3. Interaja com cadastros de escolas, professores, alunos e salas.
 
-Visão global do funcionamento da rede educacional
+---
+
+## 🎯 Objetivo
+
+Demonstrar construção de um aplicativo Android funcional com persistência local de dados e operações completas de gerenciamento acadêmico.
 
 --------------------------------------------------------------------------------------------------------------------------
 CRUD
